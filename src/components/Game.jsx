@@ -10,12 +10,9 @@ export default class Game extends Component {
     
     constructor(){
         super();
-        
-        
         this.rows = HEIGHT/CELL_SIZE;
         this.cols = WIDTH/CELL_SIZE;
         this.board = this.makeEmptyBoard();
-        
     }
     state = { 
         cells : [],
